@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+#alinhamento {
+    width: 50vw;
+}
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        margin: 20px 0;
+        font-family: Arial, sans-serif;
+    }
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+    tfoot td {
+        text-align: center;
+        font-style: italic;
+        color: #333;
+    }
+    input, button{
+        padding: 10px;
+    }
+    #sucesso {
+        display: none;
+        background-color: rgba(82, 223, 82, 0.445);
+        text-shadow: 1px 1px 1px white;
+        
+    }
+    #error {
+        display: none;
+        background-color: rgba(211, 77, 77, 0.404);
+        text-shadow: 1px 1px 1px white;
+    }

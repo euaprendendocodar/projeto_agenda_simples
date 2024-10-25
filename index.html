@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Agenda</h1>
+
+    <form action="#" id="form">
+        <input type="text" placeholder="Nome" required maxlength="50" id="nome">
+        <input type="number" placeholder="Numero" required minlength="8" maxlength="20" id="numero">
+        <input type="text" placeholder="Categoria" required maxlength="25" id="categoria">
+        <button type="submit">Salvar</button>
+    </form>
+
+    <div id="alinhamento">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Numero</th>
+                    <th>Categoria</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                
+            </tbody>
+            <tfoot id="sucesso">
+                
+            </tfoot>
+            <tfoot id="error">
+                
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="algoritimo.js"></script>
+</body>
+</html>
